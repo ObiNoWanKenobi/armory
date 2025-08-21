@@ -29,6 +29,8 @@ class SetMaterialValueParamNode(ArmLogicTreeNode):
         self.add_input('ArmDynamicSocket', 'Material')
         self.add_input('ArmStringSocket', 'Node')
         self.add_input('ArmFloatSocket', 'Float')
+        self.add_input('ArmFloatSocket', 'Fade-Step')
+        
 
         self.add_output('ArmNodeSocketAction', 'Out')
     
